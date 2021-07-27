@@ -31,7 +31,7 @@
       }
     ],
     "@typescript-eslint/no-explicit-any": [
-      "error",
+      "warn",
       {
         "ignoreRestArgs": true
       }
@@ -46,14 +46,14 @@
       }
     ],
     "no-plusplus": [
-      "error",
+      "warn",
       {
         "allowForLoopAfterthoughts": true
       }
     ],
-    "react/jsx-key": "error",
+    "react/jsx-key": "warn",
     "import/no-extraneous-dependencies": [
-      "error",
+      "warn",
       {
         "devDependencies": [
           "**/*.test.js",
@@ -72,7 +72,7 @@
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-wrap-multilines": "off",
     "react/destructuring-assignment": "off",
-    "@typescript-eslint/comma-dangle": ["error", {
+    "@typescript-eslint/comma-dangle": ["warn", {
       "arrays": "only-multiline",
       "objects": "only-multiline",
       "imports": "only-multiline",
